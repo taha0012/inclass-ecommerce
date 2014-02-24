@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.media {
+	overflow: hidden;
+	margin: 0 55px 0 55px;
+}
+
+.media-img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.media-img-reversed {
+	float: right;
+	margin: 0 0 0 15px;
+}
+
+.media-img-stacked {
+	float: none;
+	margin: 0;
+}
+
+.media-body {
+	overflow: hidden;
+}

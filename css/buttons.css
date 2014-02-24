@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Colour palette
+	#F3F Dark Pink
+	#F9F Pink
+	#FCF Linght Pink 
+	#F90 Orange */
+	
+
+.btn,
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 0.75rem 1rem;
+	background-color: #F9F;
+	background-image: linear-gradient(to bottom, #F9F, #FCF);
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+}
+
+.btn:hover,
+.btn:active {
+	display: inline-block;
+	padding: 0.75rem 1rem;
+	background-color: #F3F;
+	background-image: linear-gradient(to bottom, #F3F, #FCF);
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+}
+
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited {
+	background-color: #F90;
+	background-image: linear-gradient(to bottom, #F90, #F30);
+}
+
+.btn-alt:hover,
+.btn-alt:active {
+	display: inline-block;
+	padding: 0.75rem 1rem;
+	background-color: #F3F;
+	background-image: linear-gradient(to bottom, #F60, #F30);
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+}

@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Colour palette
+	#F3F Dark Pink
+	#F9F Pink
+	#FCF Linght Pink 
+	#F90 Orange */
+
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	display: block;
+	padding: 1rem;
+	text-align:center;
+	color: #fff;
+	text-decoration: none;
+	background-color: #F90;
+	/* border-width || border-style || border-color */
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: #F60;
+	border: 2px dotted #FFF;
+	padding: 8px;
+}
+
+.nav li{
+	font-size: 120%;
+}
+
+	/* Toggle Nav*/
+
+.nav-top{
+	max-height: 0;
+	-moz-transition: all 250ms linear;
+	-o-transition: all 250ms linear;
+	-webkit-transition: all 250ms linear;
+	transition: all 250ms linear;
+	overflow:hidden;
+	max-height: 14rem;
+}
+
+@media only screen and (min-width: 33em){
+.nav{
+	overflow: auto;
+}
+
+.nav a{
+	font-size: 80%;
+}
+
+.nav li{
+	float: left;
+	width: 25%;
+}
+	
+.nav-top{
+	max-height: 5rem;
+}
+
+header{
+	background-color:rgba(255,255,255,.5);
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index: 100;
+}
+
+}
+
+@media only screen and (min-width: 35em){
+.nav{
+	background-color: #F90;
+	text-align: center;
+}
+
+.nav li{
+	display: inline-block;
+	float: none;
+	margin: 0;
+	width:auto;
+}
+	
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	border-top: 0;
+	font-size: 100%;
+}
+
+header{
+	overflow: auto;
+}
+
+}
+
+@media only screen and (min-width: 75em){
+header{
+	float: left;
+	width: 23%;
+	clear: left;
+}
+
+.nav-top{
+	float: none;
+	clear: both;
+	max-height: 20rem;
+}
+
+.nav-top li{
+	display: block;
+	margin-bottom:20px;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited{
+	text-align: center;
+}	
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: #F60;
+}
+}

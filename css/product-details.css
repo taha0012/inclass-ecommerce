@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Colour palette 
+	#F60 dark orange
+	#FFF white */
+
+
+.price {
+	background-color: #F60;
+	border-radius: 20px;
+	color: #FFF;
+	padding-left: 40%;
+}
+
+.buy-button{
+	text-align:center;
+}
