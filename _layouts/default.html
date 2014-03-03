@@ -3,11 +3,48 @@
 <head>
 <meta charset="UTF-8">
 <title>Dinos 'R' Us</title>
+<meta name="handheldfriendly" content="true">
+<meta name="mobileoptimized" content="240">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="http://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 <link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/forms.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/embed.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/list-group.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/header.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/product-list-item.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/product-list.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/product-details.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/promos.css" rel="stylesheet">
 
 </head>
 <body>
-
+<header class="masthead island push-0">
+  <div class="grid grid-bottom">
+    <div class="unit unit-s-1 unit-m-1 unit-l-1-3">
+      <h1 class="push-0"><img class="img-flex logo" src="../image/doll-land.svg" alt="Dollland"></h1>
+    </div>
+    <nav class="unit unit-s-1 unit-m-1 unit-l-2-3">
+      <ul class="list-group giga brand-family push-0 nav">
+        <li class="list-group-item list-group-item-inline">
+          <a class"{% if page.url == '/' %}current{% endif %}" href="{{"site.baseurl}}/">Home</a>
+        </li>
+        <li class="list-group-item list-group-item-inline">
+          <a href="{{site.baseurl}}/dinos.html">Dinasaurs</a>
+        </li>
+        <li class="list-group-item list-group-item-inline">
+          <a href="{{site.baseurl}}/about/">About</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  </header>
 {{content}}
 
 </body>
