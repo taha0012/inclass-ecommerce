@@ -2,6 +2,23 @@
 layout: default
 title: Home
 meta: "Covering everything dinosaur-related: links, videos, photos, info."
+showbanner:yes
+bannertext: Dinasaurs Rock!
 ---
 <h1>Dinos 'R' Us</h1>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commet.</p>
+
+<div class="grid">
+
+	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+    	{% include promo-small.html title="Promo 1" description="Super-duper sale!" image="bear1.jpg" %}
+    </div>
+
+	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3"
+    	{% include promo-small.html title="Promo 2" description="Another amazing deal!" image="bear2.jpg"  %}
+    </div>
+    
+	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3"
+    	{% include promo-small.html title="Promo 3" description="Fantastico!" image="bear3.png" %}
+    </div>
+     

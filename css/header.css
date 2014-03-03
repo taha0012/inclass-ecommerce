@@ -26,7 +26,6 @@ background-color: red;
   .logo {
     margin: 0;
   }
-
 }
 
 .nav {
@@ -34,16 +33,19 @@ background-color: red;
   text-align: right;
 }
 
+.banner {
+	background: #06B65E url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 5rem 1rem 1rem;
+	text-align: center;
+	color: #fff;
+}
+
+.banner h1 {
+	color: #fff;
+}
+
 .nav a {
   display: inline-block;
   margin: 0 0.4em;
-}
-
-@media only screen and (min-width: 50em) {
-
-  .nav {
-    margin-top: 0;
-    text-align: right;
-  }
-
 }

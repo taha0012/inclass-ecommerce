@@ -1,10 +1,4 @@
-@charset "UTF-8";
-/* CSS Document */
-
-.bucket-img-small{
-	width:25%;
-}
-
-.bucket-img-large{
-	width:50%;
+.promo-small{
+	background-color: #c7c0ae;
+	border-radius: 10px;
 }
