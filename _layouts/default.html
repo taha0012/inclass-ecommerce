@@ -36,10 +36,10 @@
           <a class"{% if page.url == '/' %}current{% endif %}" href="{{"site.baseurl}}/">Home</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a href="{{site.baseurl}}/dinos.html">Dinasaurs</a>
+          <a class"{% if page.url contains 'dinosaurs' %}current{% endif %}" href="{{"site.baseurl}}/">Dinosaurs</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a href="{{site.baseurl}}/about/">About</a>
+            <a class"{% if page.url == '/about/' %}current{% endif %}" href="{{"site.baseurl}}/">About</a>
         </li>
       </ul>
     </nav>
